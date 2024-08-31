@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"rel="stylesheet">
+    <title>Sign-Up</title>
+    <link rel="icon" type="image/png" href="./images/User-avatar.svg.png" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body class="align-content-center">
+    <div class="container p-4 text-center">
+        <div class="form-box">
+            <h1>Smart Login System</h1>
+            <div id="registrationForm" class="text-start">
+                <div class="input-icon">
+                    <input class="form-control my-3" type="text" id="username" placeholder="Username">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <div class="input-icon">
+                    <input class="form-control my-3" type="email" id="email" placeholder="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-icon">
+                    <input class="form-control my-3" type="password" id="password" placeholder="Password" required>
+                    <i class="fa-solid fa-key"></i>
+                </div>
+                <div class="input-icon">
+                    <input class="form-control my-3" type="number" id="number" placeholder="Phone Number" required>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="input-icon">
+                    <input class="form-control my-3" type="file" id="avatar-input" accept="image/*">
+                    <i class="fa-solid fa-file-image"></i>
+                </div>
+
+            </div>
+            <button type="submit" class="btn my-3 btn-warning">SignUp</button>
+            <p id="registrationError" class="error_message"></p>
+        </div>
+        <p id="Message">Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>

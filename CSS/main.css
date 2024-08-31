@@ -1,0 +1,137 @@
+body {
+    background-image: url("../IMG/7bf1e511-39b7-4487-8dda-9899373a79ae.jpeg");
+        height: 100vh;
+        background-size: cover;
+        background-position:center;
+        font-family: Arial, sans-serif;    
+    }
+    
+    .container {
+        width: 50%;
+        background-color :rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.6);
+        height: 76vh;
+      
+    }
+    h1{
+            font-family: "PT Serif", serif;
+            font-weight: 200;
+            font-style:oblique;
+            color:#ffe6e6;
+    
+          
+    }
+    #userName {
+        display: flex;
+        text-align: center;
+      justify-content: center; 
+      align-items: center;  
+    
+    }
+    
+    #welcomeImage {
+        display: inline-block;
+        background-color: #ffe6e6;
+        width: 115px;
+        height: 115px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    #logoutButton {
+        margin-top: 20px;
+    }
+    .input-icon input::placeholder{
+        color: #101953;
+    }
+    .input-icon {
+        position: relative;
+    
+    }
+    
+    .input-icon i {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .input-icon input {
+        padding-left: 40px; 
+       
+    }
+    #avatar-input{
+        background-color: rgb(243, 243, 243);
+        
+    }
+
+     .st{
+        margin: 50px 50px;
+     }
+     p{
+        margin-top: 20px;
+        color: #ffe6e6;
+     }
+     a{
+        color: #1a04d9;
+    
+     }
+     a:hover{
+        color:#748DA6 ;
+     }
+     .btn:hover {
+        background-color: #748DA6;
+        border-color:#2C3E50 ;
+    }
+    .error {
+        border: 2px solid red;
+        background-color: #ffe6e6;
+        
+    
+    }
+    .error_message {
+        color: red; 
+        font-weight: bold;
+    }
+    #logoutButton a{
+        text-decoration: none;
+    }
+    
+    
+    @media screen and (max-width:800px) {
+        body {
+            width: 100%;
+        }
+    
+        .container {
+            width: 80%;
+            height: 86vh;
+    
+    
+        }
+        #userName {
+            display: flex;
+        text-align: center;
+      justify-content: center; 
+      align-items: center;
+    
+    }
+    
+    #welcomeImage {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: auto;
+    }
+        .btn{
+            width: 50%; 
+        }
+        .st{
+            margin: 60px 0;
+         }
+         
+        }
+    

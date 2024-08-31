@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="./images/User-avatar.svg.png" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+
+<body class="align-content-center">
+    <div class="container p-4 text-center">
+        <div class="form-group st linkLog">
+            <h1>Smart Login System</h1>
+            <div id="loginForm" class="text-start">
+                <div class="input-icon">
+                    <input type="email" placeholder="Email" class="form-control my-4" id="loginEmail">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-icon">
+                    <input type="password" placeholder="password" class="form-control my-4" id="loginPassword">
+                    <i class="fa-solid fa-key"></i>
+                </div>
+            </div>
+            <p id="loginError" class="error_message"></p>
+            <button type="submit" class="btn my-3 btn-warning">Login</button>
+        </div>
+        <p id="noAccountMessage"> Don't have an account? <a href="index.html">SignUp here</a></p>
+
+    </div>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/login.js"></script>
+</body>
+
+</html>
